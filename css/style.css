@@ -1,10 +1,20 @@
-body {
-  background: #313030;
-  /* background-image: url(../images/index.jpg); */
-  color:#caa151;
-  font-family: "Josefin Sans", sans-serif;
-/*font-weight: bold; */
+@keyframes gradient {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
 }
+
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  color:#000000;
+
+}
+
+table, th, td {
+  border:1px solid black;
+  }
 
 h1, h2, h3 {
   font-family: "Berkshire Swash", sans-serif;
@@ -15,15 +25,15 @@ h1, h2, h3 {
 }
 
 p {
-  color:rgb(224, 162, 38);
+  color:rgb(0, 0, 0);
 }
 
 li, a {
- color:burlywood;
+ color:rgb(5, 3, 0);
 }
 
 legend, fieldset {
-  color: #510321;
+  color: #000000;
   /*color:rgb(8, 8, 8);*/
   background-color: burlywood;
   border: double #121212;
@@ -55,6 +65,7 @@ span
 figure
 input
 fieldset
+
 
 div {
   border: double cornflowerblue;
