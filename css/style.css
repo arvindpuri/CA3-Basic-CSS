@@ -28,7 +28,7 @@ p {
   color:rgb(0, 0, 0);
 }
 
-li, a {
+ul, ol,li, a {
  color:rgb(5, 3, 0);
 }
 
@@ -57,18 +57,25 @@ legend, fieldset {
 }
 
 
-ul
-li
-ol
-hr
-span
-figure
-input
-fieldset
+
+hr{
+  color: black;
+}
+span{
+  color: #e73c7e;}
+figure{
+  margin-top: auto;
+}
+input{
+  background-color: #caa151;
+}
+fieldset{
+  color: bisque;
+}
 
 
 div {
-  border: double cornflowerblue;
+  border: double rgb(0, 0, 1);
 }
 
 
